@@ -1,0 +1,17 @@
+{
+  "name": "bt-dip-mesh",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "mesh dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@graphql-mesh/cli": "^0.44.1",
+    "@graphql-mesh/openapi": "^0.21.3",
+    "graphql": "^16.0.1"
+  }
+}

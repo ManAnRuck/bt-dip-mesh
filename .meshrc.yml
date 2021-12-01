@@ -1,0 +1,7 @@
+sources:
+  - name: BundestagDip
+    handler:
+      openapi:
+        source: https://raw.githubusercontent.com/demokratie-live/bt-dip-sdk/main/swagger.yml
+        operationHeaders:
+          Authorization: ApiKey {context.headers['api-token']}
